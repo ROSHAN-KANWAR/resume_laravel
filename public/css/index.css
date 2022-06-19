@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(17, 14, 14);
+}
+.nav a{
+    font-size: 20px;
+ margin-bottom: 20px;
+}
+.nav a.nav-link:hover{
+    background: yellow;
+    color: black;
+    border-radius: 4px;
+}
+.nav a.nav-link.active{
+    background: yellow;
+    color: black;
+    border-radius: 4px;
+}
+.sidebar{
+    border-right: 2px solid yellow;
+    margin-top: 40px;
+}
+
+.decs p{
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+    text-align: justify;
+}
+p span{
+    color: yellow;
+    font-size: 23px;
+}
+p .hello{
+    font-size: 50px;
+    line-height: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*service icon */
+.i-color{
+    color: chartreuse;
+}
+/*service icon subtitle */
+.ss-color{
+    color:wheat
+}
